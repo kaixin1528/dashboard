@@ -211,17 +211,17 @@ function App() {
               </div>
               <div className='flex px-6 text-xs text-sidebar gap-2'>
                 <FontAwesomeIcon icon={faCalendar} />
-                <p>02.22.2022</p>
+                <p>02.23.2022</p>
               </div>
             </article>
-            <article className='w-[24rem] mx-auto sm:w-[32rem] lg:w-[40rem] h-80 text-sm font-extralight p-5 bg-white rounded-xl'>
+            <article className='w-[23rem] mx-auto sm:w-[25rem] md:w-[32rem] xl:w-[40rem] h-80 text-sm font-extralight p-5 bg-white rounded-xl'>
               <ResponsiveContainer width='100%' height='100%'>
                 <BarChart
                   data={data}
                   margin={{
                     top: 5,
                     right: 10,
-                    left: 10,
+                    left: 0,
                     bottom: 5,
                   }}
                   barSize={30}
